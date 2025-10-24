@@ -394,7 +394,7 @@ def main():
   
   # Configuration from environment or defaults
   base_url = os.getenv("LITELLM_BASE_URL", "https://api.thucchien.ai/gemini/v1beta")
-  api_key = os.getenv("LITELLM_API_KEY", "sk-1234")
+  api_key = os.getenv("LITELLM_API_KEY", "sk-ugPPYGIHp5QnLBP-ppz0aA")
   
   print("🚀 Starting Veo Video Generation Example")
   print(f"📡 Using LiteLLM proxy at: {base_url}")
@@ -402,27 +402,58 @@ def main():
   # Initialize generator
   generator = VeoVideoGenerator(base_url=base_url, api_key=api_key)
   
-  # Example prompts - try different ones!
-  example_prompts = [
-      "A cat playing with a ball of yarn in a sunny garden",
-      "Ocean waves crashing against rocky cliffs at sunset",
-      "A bustling city street with people walking and cars passing by",
-      "A peaceful forest with sunlight filtering through the trees"
-  ]
-  
-  # Use first example or get from user
-  prompt = example_prompts[0]
-  print(f"🎬 Using prompt: '{prompt}'")
-  
-  # Generate and download video
-  success = generator.generate_and_download(prompt)
+  # --- CHOOSE MODE: "text-to-video" or "image-to-video" ---
+  mode = "image-to-video"  # or "text-to-video"
+  # ---
+
+  if mode == "text-to-video":
+      # Example prompts - try different ones!
+      example_prompts = [
+          "A cat playing with a ball of yarn in a sunny garden",
+          "Ocean waves crashing against rocky cliffs at sunset",
+          "A bustling city street with people walking and cars passing by",
+          "A peaceful forest with sunlight filtering through the trees"
+      ]
+      
+      # Use first example or get from user
+      prompt = example_prompts[0]
+      print(f"🎬 Using prompt: '{prompt}'")
+      
+      # Generate and download video
+      success = generator.generate_and_download(prompt)
+
+  elif mode == "image-to-video":
+      # --- Configuration for Image-to-Video ---
+      image_path = "generated_image_1.png"  # IMPORTANT: Make sure this image exists
+      prompt = """Không chỉ là những chiếc camera giám sát thông thường. Đây là "mắt thần" được trang bị Trí tuệ nhân tạo - AI, có khả năng tự động phát hiện mọi vi phạm, từ vượt đèn đỏ, sai làn, đến cả việc không thắt dây an toàn. Giao thông Việt Nam đang trở nên thông minh và an toàn hơn."""
+      # ---
+
+      print(f"🖼️  Using image: '{image_path}'")
+      print(f"🎬 Using prompt: '{prompt}'")
+
+      if not os.path.exists(image_path):
+          print("="*60)
+          print(f"❌ ERROR: Image file not found at '{image_path}'")
+          print("Please make sure the image file exists in the same directory as the script,")
+          print("or provide the full path to the image.")
+          print("="*60)
+          return
+
+      success = generator.generate_and_download_from_image(prompt, image_path)
+
+  else:
+      print(f"❌ Invalid mode: {mode}. Please choose 'text-to-video' or 'image-to-video'.")
+      return
   
   if success:
       print("✅ Example completed successfully!")
-      print("💡 Try modifying the prompt in the script for different videos!")
+      if mode == "text-to-video":
+          print("💡 Try modifying the prompt in the script for different videos!")
+      else:
+          print("💡 Try using a different image or prompt!")
   else:
       print("❌ Example failed!")
-      print("🔧 Check your API Configuration")
+      print("🔧 Check your API Configuration and that the input files exist.")
 
 
 if __name__ == "__main__":

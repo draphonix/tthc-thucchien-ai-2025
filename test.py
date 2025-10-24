@@ -52,7 +52,7 @@ class VeoVideoGenerator:
       """
       print(f"🎬 Generating video with prompt: '{prompt}'")
       
-      url = f"{self.base_url}/models/veo-3.0-generate-preview:predictLongRunning"
+      url = f"{self.base_url}/models/veo-3.1-generate-preview:predictLongRunning"
       payload = {
           "instances": [{
               "prompt": prompt
@@ -290,13 +290,13 @@ def main():
   
   # Example prompts - try different ones!
   example_prompts = [
-      """A dynamic, high-tech 7-second TV news intro for "Thực Chiến AI".
+      """A dynamic, high-tech 7-second TV news intro for "AI News".
 Scene: A futuristic, sleek news studio with glowing blue and white lights.
-(0-3 seconds): A rapid zoom-in through a tunnel of holographic data visualizations. The camera bursts through to reveal the bold, 3D metallic logo "Thực Chiến AI" animating on a giant LED screen with a clean, digital glitch effect.
+(0-3 seconds): A rapid zoom-in through a tunnel of holographic data visualizations. The camera bursts through to reveal the bold, 3D metallic logo "AI News" animating on a giant LED screen with a clean, digital glitch effect.
 (3-6 seconds): The camera immediately whips pan from the logo to a charismatic anchor standing at a modern news desk. The anchor gives a single, confident nod to the camera as minimalist lower-third graphics instantly appear.
-(6-7 seconds): A final, quick flash of the "Thực Chiến AI" logo fills the screen.
+(6-7 seconds): A final, quick flash of the "AI News" logo fills the screen.
 Audio: A powerful and short electronic music sting with sharp, digital sound effects synchronized to the camera movements and animations.
-Overall Tone: Energetic, professional, and cutting-edge.""",
+Overall Tone: Energetic, professional, and cutting-edge. Do not include any human in the video.""",
   ]
   
   # Use first example or get from user

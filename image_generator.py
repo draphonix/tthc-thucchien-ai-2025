@@ -10,9 +10,10 @@ AI_API_KEY = "sk-ugPPYGIHp5QnLBP-ppz0aA"  # TODO: Replace with your actual API k
 response = litellm.image_generation(
   prompt="Hình ảnh một nữ MC người Việt Nam trẻ trung xinh đẹp đang ngồi ở đài truyền hình",
   model="litellm_proxy/imagen-4",
-  n=2,
+  n=1,
   api_key=AI_API_KEY,
   api_base=AI_API_BASE,
+  aspect_ratio="16:9",
 )
 
 # --- Xử lý và lưu từng ảnh ---
