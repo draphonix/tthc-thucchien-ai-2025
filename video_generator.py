@@ -53,7 +53,7 @@ class VeoVideoGenerator:
       """
       print(f"🎬 Generating video with prompt: '{prompt}'")
       
-      url = f"{self.base_url}/models/veo-3.0-generate-preview:predictLongRunning"
+      url = f"{self.base_url}/models/veo-3.1-generate-preview:predictLongRunning"
       payload = {
           "instances": [{
               "prompt": prompt
@@ -425,7 +425,7 @@ def main():
   elif mode == "image-to-video":
       # --- Configuration for Image-to-Video ---
       image_path = "generated_image_1.png"  # IMPORTANT: Make sure this image exists
-      prompt = """Không chỉ là những chiếc camera giám sát thông thường. Đây là "mắt thần" được trang bị Trí tuệ nhân tạo - AI, có khả năng tự động phát hiện mọi vi phạm, từ vượt đèn đỏ, sai làn, đến cả việc không thắt dây an toàn. Giao thông Việt Nam đang trở nên thông minh và an toàn hơn."""
+      prompt = """Camera không di chuyển. MC nói: mà đang từng ngày định hình một Việt Nam hiệu quả, an toàn và thông minh hơn."""
       # ---
 
       print(f"🖼️  Using image: '{image_path}'")
