@@ -1,0 +1,15 @@
+**THỜI LƯỢNG:** 60 GIÂY
+**TIÊU ĐỀ:** AI: ĐỊNH HÌNH TƯƠNG LAI VIỆT NAM
+**NGÀY:** [NGÀY PHÁT SÓNG]
+**BIÊN KỊCH:** [TÊN BIÊN KỊCH]
+**DẪN CHƯƠNG TRÌNH (DCTR):**
+
+---
+
+| HÌNH ẢNH / ÂM THANH | LỜI DẪN |
+| :--- | :--- |
+| **(00:00 - 00:08)**<br>**VIDEO:** Montage nhanh, ấn tượng: <br>- Cảnh giao thông đông đúc vào giờ cao điểm.<br>- Camera giao thông zoom vào một hành vi vi phạm (vượt đèn đỏ).<br>- Giao diện đồ họa hiển thị thông tin vi phạm được AI phân tích tự động.<br>**GRAPHIC (chữ nổi bật):** MẮT THẦN AI | **DCTR:** (Giọng đọc nhanh, dứt khoát)<br>Không chỉ là những chiếc camera giám sát thông thường. Đây là "mắt thần" được trang bị Trí tuệ nhân tạo - AI, có khả năng tự động phát hiện mọi vi phạm, từ vượt đèn đỏ, sai làn, đến cả việc không thắt dây an toàn. Giao thông Việt Nam đang trở nên thông minh và an toàn hơn. |
+| **(00:08 - 00:20)**<br>**VIDEO:** Chuyển cảnh mượt mà:<br>- Hình ảnh người dân chờ đợi tại một cơ quan hành chính công.<br>- Cắt cảnh một người dùng điện thoại, tương tác với Chatbot dịch vụ công.<br>- Đồ họa mô phỏng luồng dữ liệu được AI xử lý nhanh chóng.<br>**ÂM THANH:** Tiếng gõ bàn phím nhẹ nhàng. | **DCTR:** (Giọng đọc chậm lại, rõ ràng hơn)<br>Và sức mạnh đó không chỉ dừng lại trên đường phố. AI đang cách mạng hóa dịch vụ công, giúp người dân thực hiện các thủ tục 24/7 ngay tại nhà, giảm bớt giấy tờ và thời gian chờ đợi. |
+| **(00:20 - 00:35)**<br>**VIDEO:** Cảnh quay tư liệu xúc động:<br>- Hình ảnh lũ lụt ở miền Bắc (tư liệu).<br>- Chân dung chị Nguyễn Thị Mai Anh.<br>- Giao diện của ứng dụng cứu hộ trên điện thoại.<br>**ÂM THANH:** Nhạc nền đẩy cảm xúc lên cao. | **DCTR:** (Nhấn mạnh, truyền cảm)<br>Ấn tượng hơn cả, là khi AI trở thành "phao cứu sinh" theo đúng nghĩa đen. Giữa tâm lũ, một ứng dụng cứu hộ được tạo ra chỉ trong một đêm bởi các kỹ sư trẻ, đã nhanh chóng tổng hợp và kết nối hàng trăm lời kêu cứu, giúp lực lượng chức năng tiếp cận người dân chính xác và kịp thời. |
+| **(00:35 - 00:50)**<br>**VIDEO:** <br>- Cảnh quay sôi động tại cuộc thi "AI Thực Chiến".<br>- Các bạn trẻ đang lập trình, thảo luận.<br>- Đồ họa chạy chữ: "XÂY DỰNG MÔ HÌNH NGÔN NGỮ LỚN (LLM) TIẾNG VIỆT". | **DCTR:** (Giọng đọc hào hứng, hướng về tương lai)<br>Từ những ứng dụng thực tế đó, các cuộc thi như "AI Thực Chiến" đang thắp lên ngọn lửa đam mê, tìm kiếm những nhân tài để xây dựng một khát vọng lớn hơn: làm chủ công nghệ lõi và phát triển mô hình ngôn ngữ AI của riêng người Việt. |
+| **(00:50 - 01:00)**<br>**VIDEO:** Montage tổng hợp các hình ảnh đẹp nhất trong clip: camera AI, người dân mỉm cười, ứng dụng cứu hộ, các kỹ sư trẻ.<br>**GRAPHIC (cuối chương trình):** Tên chương trình và logo nhà đài. <br>**ÂM THANH:** Nhạc hiệu chương trình nổi lên. | **DCTR:** (Giọng đọc mạnh mẽ, kết luận)<br>Từ quản lý đường phố, phục vụ người dân, đến kiến tạo các chiến lược quốc gia... Trí tuệ nhân tạo không còn là tương lai xa vời, mà đang từng ngày định hình một Việt Nam hiệu quả, an toàn và thông minh hơn. |
